@@ -108,11 +108,33 @@ header {
   border-radius: 15px;
 }
 
-.right-button button {
-  margin: 3vh;
-  padding: 1vh 1vw;
-  width: 40%;
+button {
+  background-color: lightpink;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+button:hover {
+  background-color: hotpink;
+  transform: scale(1.05);
+}
+
+
+nav a {
+  color: rgb(226, 147, 181);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e753b6; /* Change color on hover */
+}
+
 
 
 .iframe-container {
