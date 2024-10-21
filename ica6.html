@@ -9,26 +9,25 @@
 <body>
   <header>
     <div class="header-row">
-      <!-- [Q1. Draw an svg logo and put it as the .header-logo div. Wrap the svg in an <a> with href referencing this page ] -->
-        <div class="header-logo">
-          <a href="#">
-            <svg width="50" height="50" viewBox="0 0 32 29" xmlns="http://www.w3.org/2000/svg">
-              <path d="M23.6,0C21.3,0,19.1,1.1,17.6,2.8C16.1,1.1,13.9,0,11.6,0C7,0,3.2,3.8,3.2,8.4c0,4.1,3.2,7.4,9.8,13.3L16,24.3
-                l3.1-2.7c6.6-5.9,9.8-9.2,9.8-13.3C28.9,3.8,25.1,0,20.4,0H23.6z" fill="lightpink"/>
-            </svg>
-          </a>
-        </div>
+      <div class="header-logo">
+        <a href="#">
+          <svg width="50" height="50" viewBox="0 0 32 29" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.6,0C21.3,0,19.1,1.1,17.6,2.8C16.1,1.1,13.9,0,11.6,0C7,0,3.2,3.8,3.2,8.4c0,4.1,3.2,7.4,9.8,13.3L16,24.3
+              l3.1-2.7c6.6-5.9,9.8-9.2,9.8-13.3C28.9,3.8,25.1,0,20.4,0H23.6z" fill="lightpink"/>
+          </svg>
+        </a>
+      </div>
       <nav>
         <ul>
           <li><a href="#hero">hero</a></li>
           <li><a href="#iframe">iframe</a></li>
           <li><a href="#hw6">HW6</a></li>
         </ul>
+      </nav>
     </div>
   </header>
   
   <section class="hero" id="hero">
-    <!-- [Q2. use a <video> to insert a video to autoplay. ] -->
     <div class="left-video">
       <div class="video">
         <iframe width="600" 
@@ -43,24 +42,37 @@
       </div>
     </div>
     <div class="right-content">
-      This video showcases an adorable dancing cat, bringing joy and laughter with its playful moves. The cat’s charming dance routine has captivated viewers, making it a viral hit on the internet. Its rhythmic movements and cute antics make it a delightful watch for anyone who loves cats or just needs a fun break in their day. The simplicity of the video, paired with the cat’s infectious energy, makes it an instant mood-lifter.
-      <div class="right-text"></div>
+      <div class="right-text">
+        This video showcases an adorable dancing cat, bringing joy and laughter with its playful moves. The cat’s charming dance routine has captivated viewers, making it a viral hit on the internet. The simplicity of the video, paired with the cat’s infectious energy, makes it an instant mood-lifter.
+      </div>
       <div class="right-button">
-        <!-- [Q3. Style this button both for original styles and for the styles to change :onhover. ] -->
         <button>Style this button!</button>
       </div>
     </div>
-    <!-- [Q4. Add a preformatted SVG image of a section break (some design) to make a more smooth transition between sections. Use an online SVG generator to create this SVG, and have the colors match the page.] -->
-    <div class="bottom-svg-wave"></div>
+  </section>
+
+  <!-- The SVG section -->
+  <section>
+    <div class="bottom-svg-wave">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 600" preserveAspectRatio="none">
+        <rect x="0" y="0" width="100%" height="600" fill="#F7CACA"></rect>
+        <g fill="#e753b6">
+          <path d="M0 -111.4L25 -34.4L105.9 -34.4L40.5 13.1L65.5 90.1L0 42.5L-65.5 90.1L-40.5 13.1L-105.9 -34.4L-25 -34.4Z" transform="translate(134 472)"></path>
+          <path d="M0 -49.1L11 -15.2L46.7 -15.2L17.8 5.8L28.8 39.7L0 18.7L-28.8 39.7L-17.8 5.8L-46.7 -15.2L-11 -15.2Z" transform="translate(430 232)"></path>
+          <path d="M0 -98.2L22 -30.3L93.4 -30.3L35.7 11.6L57.7 79.4L0 37.5L-57.7 79.4L-35.7 11.6L-93.4 -30.3L-22 -30.3Z" transform="translate(771 139)"></path>
+          <path d="M0 -92.5L20.8 -28.6L88 -28.6L33.6 10.9L54.4 74.8L0 35.3L-54.4 74.8L-33.6 10.9L-88 -28.6L-20.8 -28.6Z" transform="translate(557 544)"></path>
+        </g>
+      </svg>
+    </div>
   </section>
 
   <section class="iframe-container" id="iframe">
-    <!-- [Q5. Copy the webaddress or iframe architecture from a website of your choice and insert it to the content of the .iframe div] -->
-    <div class="iframe">Insert your iframe here</div>
+    <div class="iframe">
+      <iframe src="https://www.youtube.com/embed/bDd3BPaxrfo" width="100%" height="100%" style="border:none;">
+    </div>
+    </div>
   </section>
   
-  <section class="hw6-container" id="hw6">
-
-  </section>
+  <section class="hw6-container" id="hw6"></section>
 </body>
 </html>
