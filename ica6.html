@@ -31,20 +31,14 @@
   <section class="hero" id="hero">
     <div class="left-video">
       <div class="video">
-        <iframe width="600" 
-                height="488" 
-                src="https://www.youtube.com/embed/X8avbciUP3c" 
-                title="he" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
-        </iframe>
+        <iframe width="600" height="488" src="https://www.youtube.com/embed/X8avbciUP3c" 
+                title="he" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
     <div class="right-content">
       <div class="right-text">
-        This video showcases an adorable dancing cat, bringing joy and laughter with its playful moves. The cat’s charming dance routine has captivated viewers, making it a viral hit on the internet. The simplicity of the video, paired with the cat’s infectious energy, makes it an instant mood-lifter.
+        This video showcases an adorable dancing cat, bringing joy and laughter with its playful moves. The cat’s charming dance routine has captivated viewers, making it a viral hit on the internet.
       </div>
       <div class="right-button">
         <button>Style this button!</button>
@@ -52,7 +46,7 @@
     </div>
   </section>
 
-  <!-- The SVG section -->
+  
   <section>
     <div class="bottom-svg-wave">
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 600" preserveAspectRatio="none">
@@ -69,22 +63,35 @@
 
   <section class="iframe-container" id="iframe">
     <div class="iframe">
-      <iframe src="https://www.youtube.com/embed/bDd3BPaxrfo" width="100%" height="100%" style="border:none;">
-    </div>
+      <iframe src="https://www.youtube.com/embed/bDd3BPaxrfo" width="100%" height="100%" style="border:none;"></iframe>
     </div>
   </section>
   
   <section class="hw6-container" id="hw6">
     <div class="carousel">
+
+      <input type="radio" name="carousel" id="image1" checked>
+      <input type="radio" name="carousel" id="image2">
+      <input type="radio" name="carousel" id="image3">
+  
       <div class="carousel-images">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nytimes.com%2F2022%2F11%2F17%2Flearning%2Fcats.html&psig=AOvVaw3HxnGzj0erKgPYET8cESr8&ust=1729634985800000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOjIrsm-oIkDFQAAAAAdAAAAABAV" alt="Image 1">
-        <img src="image2.jpg" alt="Image 2">
-        <img src="image3.jpg" alt="Image 3">
+        <div class="image-container" id="first">
+          <img src="https://i.natgeofe.com/n/548467d8-c5f1-4551-9f58-6817a8d2c45e/NationalGeographic_2572187_square.jpg" width="100%" height="100%" style="border:none;" alt="Image 1">
+        </div>
+        <div class="image-container" id="second">
+          <img src="https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg" width="100%" height="100%" style="border:none;" alt="Image 2">
+        </div>
+        <div class="image-container" id="third">
+          <img src="https://www.cdc.gov/healthy-pets/media/images/2024/04/Cat-on-couch.jpg" width="100%" height="100%" style="border:none;" alt="Image 3">
+        </div>
       </div>
-      <button class="prev">❮</button>
-      <button class="next">❯</button>
+  
+      <button class="carousel-btn prev-btn">&#10094;</button>
+      <button class="carousel-btn next-btn">&#10095;</button>
+    </div>
+
     </div>
   </section>
-  
+
 </body>
 </html>
